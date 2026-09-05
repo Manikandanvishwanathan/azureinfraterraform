@@ -74,7 +74,7 @@ resource "azurerm_resource_group_policy_assignment" "rg_tag_enforcement" {
   # Supply parameters required by this policy definition
   parameters = jsonencode({
     "tagName" = {
-      "value" = "Department"
+      "value" = "Department1"
     }
   })
 }
