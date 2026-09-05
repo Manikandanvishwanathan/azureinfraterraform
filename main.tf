@@ -25,7 +25,7 @@ data "azuread_domains" "default" {
 # Generate a strong, random temporary password
 resource "random_password" "user_passwords" {
   for_each = var.users
-  length           = 20
+  length           = 16
   special          = true
   override_special = "!#$%&*()-_=+[]{}<>:?"
 }
