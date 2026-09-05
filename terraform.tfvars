@@ -4,7 +4,7 @@ users = {
     first_name = "David"
     last_name  = "Miller"
     job_title  = "Site Reliability Engineer"
-    department = "Operations"
+    department = "Operation"
   }
   "karthi" = {
     first_name = "Mr"
