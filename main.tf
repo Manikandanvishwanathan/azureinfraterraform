@@ -60,7 +60,7 @@ data "azurerm_resource_group" "rg" {
 
 # 2. Look up a Built-in Policy Definition (e.g., "Require a tag on resources")
 data "azurerm_policy_definition" "require_tag" {
-  display_name = "Require a tag on resources"
+  display_name = "Require a tag on resource"
 }
 
 # 3. Assign the Policy to the Resource Group
